@@ -13,6 +13,35 @@
 
     <!--Seccion de menu de navegación-->
 
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-warning shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center fw-bold text-warning" href="#">
+                <img src="./assets/logo.jpeg" alt="Logo Clash Royale" width="40" height="40" class="d-inline-block align-text-top me-2 rounded-circle border border-warning">
+                Clash Royale
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#personajes">Personajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#footer">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
     <!--Seccion imágenes del videojuego.-->
     <main class="container px-4 my-5">
 
@@ -21,7 +50,7 @@
             <p class="fs-5 text-light">Galería de Personajes</p>
         </div>
 
-        <h2 class="text-warning border-bottom border-warning pb-2 mb-4">Personajes</h2>
+        <h2 id="personajes" class="text-warning border-bottom border-warning pb-2 mb-4">Personajes</h2>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 justify-content-center">
 
@@ -102,13 +131,9 @@
     </main>
 
 
-    <h1>Hola mundo XD</h1>
 
-
-
-
-        <!--  inicio del  footer -->
-    <footer class="text-light pt-5 pb-3 mt-auto border-top border-warning border-3" style="background-color: #1f426d !important;">
+        <!--Seccion del footer-->
+    <footer id="footer" class="text-light pt-5 pb-3 mt-auto border-top border-warning border-3" style="background-color: #1f426d !important;">
         <div class="container">
             <div class="row g-4">
                 
@@ -132,7 +157,6 @@
             </div>
         </div>
     </footer>
-    <!-- finn -->
 
 </body>
 
