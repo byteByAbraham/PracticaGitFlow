@@ -1,11 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Clash Royale</title>
+
 </head>
-<body>
-    <h1>Hola mundo XD</h1>
+
+<body class="bg-dark text-white">
+
+    <!--Seccion de menu de navegación-->
+
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-warning shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center fw-bold text-warning" href="#">
+                <img src="./assets/logo.jpeg" alt="Logo Clash Royale" width="40" height="40" class="d-inline-block align-text-top me-2 rounded-circle border border-warning">
+                Clash Royale
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#personajes">Personajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#footer">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <!--Seccion imágenes del videojuego.-->
+    <main class="container px-4 my-5">
+
+        <div class="text-center mb-5">
+            <h1 class="fw-bold text-warning display-4">CLASH ROYALE</h1>
+            <p class="fs-5 text-light">Galería de Personajes</p>
+        </div>
+
+        <h2 id="personajes" class="text-warning border-bottom border-warning pb-2 mb-4">Personajes</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 justify-content-center">
+
+
+            <div class="col">
+                <div class="card h-100 bg-secondary text-white shadow">
+                    <img src="./assets/image/mini_peka.jpeg" class="card-img-top p-2 bg-white" alt="Mini"
+                        style="height: 250px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Mini P.E.K.K.A</h5>
+                        <p class="card-text small">Rápido y letal, destruye tanques con pocos golpes de su espada</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100 bg-secondary text-white shadow">
+                    <img src="./assets/image/arquera.jpeg" class="card-img-top p-2 bg-white" alt="Arquera"
+                        style="height: 250px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Arquera</h5>
+                        <p class="card-text small">Atacan a distancia y son excelentes para defender contra tropas de aire y tierra</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100 bg-secondary text-white shadow">
+                    <img src="./assets/image/valquiria.jpeg" class="card-img-top p-2 bg-white" alt="Valquiria"
+                        style="height: 250px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Valquiria</h5>
+                        <p class="card-text small">Tropa de cuerpo a cuerpo que inflige daño en área girando su hacha </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100 bg-secondary text-white shadow">
+                    <img src="./assets/image/principe.jpeg" class="card-img-top p-2 bg-white" alt="Principe"
+                        style="height: 250px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Principe</h5>
+                        <p class="card-text small">Carga con velocidad y duplica su impacto si recorre suficiente distancia</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100 bg-secondary text-white shadow">
+                    <img src="./assets/image/monta_puerco.jpeg" class="card-img-top p-2 bg-white" alt="Monta"
+                        style="height: 250px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Montapuercos</h5>
+                        <p class="card-text small">Salta el río y se dirige velozmente directo a las estructuras enemigas</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100 bg-secondary text-white shadow">
+                    <img src="./assets/image/princesa.jpeg" class="card-img-top p-2 bg-white" alt="Princesa"
+                        style="height: 250px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Princesa</h5>
+                        <p class="card-text small">Dispara flechas de fuego a gran alcance desde fuera de la distancia de las torres</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+        <!--Seccion del footer-->
+    <footer id="footer" class="text-light pt-5 pb-3 mt-auto border-top border-warning border-3" style="background-color: #1f426d !important;">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-md-6 text-center text-md-start">
+                    <h3 class="text-warning h5 text-uppercase fw-bold border-bottom border-danger pb-2 d-inline-block">Sobre nosotros</h3>
+                    <p class="text-light mt-2">Somos un equipo apasionado por Clash Royale.</p>
+                </div>
+
+                <div class="col-md-6 text-center text-md-start">
+                    <h3 class="text-warning h5 text-uppercase fw-bold border-bottom border-danger pb-2 d-inline-block">Integrantes</h3>
+                    <ul class="list-unstyled mt-2">
+                        <li class="bg-dark bg-opacity-50 p-2 mb-2 rounded border-start border-warning border-3 text-light">García Rodríguez Abraham Antonio</li>
+                        <li class="bg-dark bg-opacity-50 p-2 mb-2 rounded border-start border-warning border-3 text-light">Gómez Juárez Diana Lizbeth</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="text-center pt-4 mt-4 border-top border-secondary text-light small">
+                <p class="mb-0">&copy; 2026 Proyecto Clash Royale - Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
